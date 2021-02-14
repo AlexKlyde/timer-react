@@ -1,0 +1,47 @@
+#root {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  width: 300px;
+  text-align: center;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  &__display {
+    margin-bottom: 20px;
+  }
+
+  &__display span {
+    font-size: 36px;
+  }
+}
+
+.button {
+  font-size: 16px;
+  background-color: rgb(74, 114, 201);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(216, 57, 32);
+  }
+
+  &:active {
+    background-color: rgb(130, 35, 21);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
